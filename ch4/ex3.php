@@ -4,16 +4,25 @@ EX03
 <HR>
 
 <?php
-$name = "陳會安";       // 指定變數值
-$username1 = "陳允傑";
-$username2 = "江小魚";
 
-// echo()顯示內容
-echo ("PHP的echo()使用<br/>");
+$name1 = "陳會安";
+$name2 = "陳允傑";
+$name3 = "江小魚";
+
 echo "PHP的echo()使用<br/>";
-echo $username1, $username2;
-echo "Hi! " . $name . "<br/>";
-echo "Hi! $name $username1 $username2<br/>";
-echo ("Hi! " . $name . " " . $username1 . "<br/>");
-echo ("Hi! $name<br/>");
+echo "PHP的echo()使用<br/>";
+
+echo $name2 . $name3 . "Hi! " . $name1 . "<br/>";
+echo "Hi! " . $name1 . " " . $name2 . " " . $name3 . "<br/>";
+echo "Hi! " . $name1 . " " . $name2 . "<br/>";
+echo "Hi! " . $name1 . "<br/>";
+
+echo "PHP的print()使用<br/>";
+print "PHP的print()使用<br/>";
+
+print "Hi! " . $name1 . "<br/>";
+print "Hi! " . $name1 . " " . $name2 . " " . $name3 . "<br/>";
+print "Hi! " . $name1 . " " . $name2 . "<br/>";
+print "Hi! " . $name1 . "<br/>";
+
 ?>

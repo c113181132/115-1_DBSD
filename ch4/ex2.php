@@ -5,14 +5,17 @@ EX02
 
 <?php
 
-// 指定變數值
 $name = "myName";
 
-// 動態變數名稱
 $$name = "陳允東";
 
-// 取出動態變數的值
 $username = $$name;
 $username1 = ${$name};
+
+echo "變數\$name = " . $name . "<br/>";
+echo "變數\$myName = " . $myName . "<br/>";
+echo "變數\$myName = " . $$name . "<br/>";
+echo "變數\$username = " . $username . "<br/>";
+echo "變數\$username1 = " . $username1 . "<br/>";
 
 ?>
