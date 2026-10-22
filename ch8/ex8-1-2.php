@@ -1,7 +1,9 @@
 
-echo "<ex04>";
-echo "<h3>SID : C113181132</h3>";
-echo "<h3>Name : 吳宗翰</h3>";
+echo "EX04<br/>";
+<?php
+echo "SID:C113181132<br/>";
+echo "Name:吳宗翰<br/>";
+?>
 <!DOCTYPE html>
 <html lang="zh-TW">
 <head>
